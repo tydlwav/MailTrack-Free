@@ -31,7 +31,7 @@ function removeAds(){
 
 function clickAllElementsByClass(daClass){
     var ttt = document.getElementsByClassName(daClass);
-    for(i=0; i<ttt.length;i++){
+    for(var i=0; i<ttt.length;i++){
         ttt[i].click();
     }
 }
